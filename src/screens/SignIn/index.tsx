@@ -2,8 +2,13 @@ import React from 'react';
 
 import { Input } from '@components/Input'
 import { Container } from './styles';
+import { Button } from '@components/Button';
 
 const SignIn: React.FC = () => {
+
+  // const [isLoading, setIsloading] = setState()
+
+
   return (
     <Container>
 
@@ -17,6 +22,12 @@ const SignIn: React.FC = () => {
         placeholder='E-mail'
         type='secondary'
         secureTextEntry
+      />
+
+      <Button 
+        type='secondary'
+        // isLoading
+        title="título"
       />
 
     </Container>
