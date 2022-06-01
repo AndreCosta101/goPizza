@@ -3,8 +3,8 @@ import  {LinearGradient}  from 'expo-linear-gradient';
 
 export const Container = styled( LinearGradient ).attrs(({ theme }) => ({
     colors: theme.COLORS.GRADIENT,
-    start: { x:3, y:1},
-    end: { x: 0.5, y: 0.5}
+    start: { x:0, y:0},
+    end: { x: 0, y: 0}
 }))`
     flex: 1;
     justify-content: center;
